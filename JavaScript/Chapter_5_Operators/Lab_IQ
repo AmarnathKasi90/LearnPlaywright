@@ -1,0 +1,48 @@
+let name = null;
+let age;
+
+name = "Kasi";
+
+var p = NaN;
+p = p + 10;
+console.log(p);
+
+var a = 0 / 0;
+var a1 = 0.0 / 0.0;
+console.log(a);
+console.log(a1);
+
+// console.log("let", pi); //ReferenceError: Cannot access 'pi' before initialization
+let pi = 3.14;
+console.log("lets", pi);
+
+// var pi = 3.546; //SyntaxError: Identifier 'pi' has already been declared
+// console.log("Var", pi);
+
+let a2;
+console.log(a2);
+
+let a3 = null;
+console.log(a3);
+
+let red = "#880808";
+console.log(red);
+
+let inputAge = "false";
+
+
+if (inputAge == false) {
+    console.log("Age is empty/invalid");  // WRONG! "0" == false is true
+}
+
+// === Strict check we will check for both the datatype and value
+// == Lose check we will check either value or data type.
+console.log("== and === Verification with Numbers");
+console.log(5 == "5");
+console.log('Hi' == "Hi");
+
+console.log("6" == "5");
+console.log(6 == 5);
+console.log("Hello" == "Hi");
+
+
