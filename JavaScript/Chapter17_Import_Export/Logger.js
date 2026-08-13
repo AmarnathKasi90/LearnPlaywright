@@ -1,4 +1,4 @@
-export default function Logger(message) {
+export default function log(message) {
     console.log("[LOG] - default ", message)
 
 }

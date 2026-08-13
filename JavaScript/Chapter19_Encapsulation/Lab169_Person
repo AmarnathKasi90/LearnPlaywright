@@ -1,0 +1,26 @@
+class Person {
+    #name;
+    #child1;
+    #child2;
+
+    constructor(name, c1, c2) {
+        this.#name = name;
+        this.#child1 = c1;
+        this.#child2 = c2;
+        console.log(this.#name, this.#child1, this.#child2)
+    }
+
+    getChildName1() {
+        return this.#child1;
+    }
+
+    setChildName(Ch_name) {
+        this.#child1 = Ch_name;
+    }
+}
+
+let p1 = new Person("Kasi", "Reddy", "Amar")
+
+console.log(p1.getChildName1());
+p1.setChildName("Amarnath")
+console.log(p1.getChildName1());
