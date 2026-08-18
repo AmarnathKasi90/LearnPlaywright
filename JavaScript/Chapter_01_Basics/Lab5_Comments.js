@@ -1,5 +1,5 @@
 
-let a = 6; // Anything after "//" will not execute
+let a = 6; // Anything after "//" will not execute in that line
 console.log(a); //6
 
 // let me = true;
